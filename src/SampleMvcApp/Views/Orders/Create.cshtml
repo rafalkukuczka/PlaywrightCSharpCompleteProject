@@ -1,0 +1,25 @@
+@model Order
+@{
+    ViewData["Title"] = "New order";
+}
+<h1>New order</h1>
+<form method="post" class="form-card">
+    <div asp-validation-summary="ModelOnly" class="validation"></div>
+
+    <label asp-for="CustomerName"></label>
+    <input asp-for="CustomerName" />
+    <span asp-validation-for="CustomerName" class="validation"></span>
+
+    <label asp-for="OrderNumber"></label>
+    <input asp-for="OrderNumber" />
+    <span asp-validation-for="OrderNumber" class="validation"></span>
+
+    <label asp-for="Quantity"></label>
+    <input asp-for="Quantity" />
+    <span asp-validation-for="Quantity" class="validation"></span>
+
+    <button type="submit">Save order</button>
+</form>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
