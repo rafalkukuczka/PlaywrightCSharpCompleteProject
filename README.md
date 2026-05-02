@@ -168,3 +168,9 @@ pwsh bin/Debug/net9.0/playwright.ps1 show-trace artifacts/order-ORD-xxxx-trace.z
 This project uses `Database.EnsureCreatedAsync()` for simplicity. In production projects, use EF Core migrations instead.
 
 The goal of this repository is to demonstrate practical Playwright testing in C# with a working MVC application and repeatable seed data.
+
+## Suggested article section
+You can use this project as a downloadable companion for an article titled:
+
+**Playwright Testing in c# **
+https://pkey.info/knowledge-base/playwright-testing-in-c-step-by-step-guide/
