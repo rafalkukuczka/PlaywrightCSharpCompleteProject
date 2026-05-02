@@ -172,5 +172,5 @@ The goal of this repository is to demonstrate practical Playwright testing in C#
 ## Suggested article section
 You can use this project as a downloadable companion for an article titled:
 
-**Playwright Testing in c# **
+**Playwright Testing in c#:**
 https://pkey.info/knowledge-base/playwright-testing-in-c-step-by-step-guide/
